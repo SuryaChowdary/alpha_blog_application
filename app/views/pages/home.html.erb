@@ -1,5 +1,18 @@
-<h1><strong> Welcome to Alpha blog page </strong> </h1>
-<p>
-  <%= link_to 'Articles Listing' , articles_path %> |
-  <%= link_to 'About' , about_path %>
-</p>
+<div id="page-content">
+  <div class= "container" id ="home-container" >
+    <div class="jumbotron text-center text-white">
+    <h1 class="display-4"> <strong>SURYA-BLOG!</strong></h1>
+    <p class="lead">Welcome to blog page of Surya. Here you find basic articles noted as series of events</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p class="lead">
+      <a class="btn btn-success btn-lg" href="#" role="button">sign up</a>
+    </p>
+    </div>
+  </div>
+</div>
+  <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white">
+    <div class="container text-center">
+      <small>Copyright &copy; <%= link_to "Surya" , "https://google.com",class: "text-white" %> </small>
+    </div>
+  </footer>
