@@ -27,7 +27,7 @@
 
 
           <div class="form-group row justify-content-center">
-           <%= f.submit "signup" ,class: "btn btn-outline-light btn-lg" %>
+           <%= f.submit(@user.new_record? ? "signup" : "Update Account" ,class: "btn btn-outline-light btn-lg") %>
           </div>
         <% end %>
       </div>
